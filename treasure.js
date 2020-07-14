@@ -5,10 +5,9 @@ const rl = readline.createInterface({
 });
 
 let input = [];
+let result = 0;
 let arrA = [];
 let arrB = [];
-let result = 0;
-let obj = {};
 let temp = [];
 
 rl.on('line', function (line) {
